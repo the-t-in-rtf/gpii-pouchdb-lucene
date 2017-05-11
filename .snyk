@@ -1,0 +1,13 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:marked:20170112':
+    - gpii-pouchdb > testem > node-notifier > cli-usage > marked:
+        patched: '2017-05-11T05:21:19.727Z'
+  'npm:ws:20160920':
+    - gpii-pouchdb > testem > socket.io > engine.io > ws:
+        patched: '2017-05-11T05:21:19.727Z'
+    - gpii-pouchdb > testem > socket.io > socket.io-client > engine.io-client > ws:
+        patched: '2017-05-11T05:21:19.727Z'
