@@ -1,0 +1,56 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - gpii-launcher > kettle > express > serve-static > send > debug:
+        patched: '2017-09-28T05:21:12.243Z'
+    - gpii-pouchdb > gpii-express > body-parser > debug:
+        patched: '2017-09-28T05:21:12.243Z'
+    - gpii-launcher > kettle > body-parser > debug:
+        patched: '2017-09-28T05:21:12.243Z'
+    - gpii-pouchdb > express-pouchdb > body-parser > debug:
+        patched: '2017-09-28T05:21:12.243Z'
+    - gpii-pouchdb > gpii-express > express > debug:
+        patched: '2017-09-28T05:21:12.243Z'
+    - gpii-pouchdb > express > debug:
+        patched: '2017-09-28T05:21:12.243Z'
+    - gpii-launcher > kettle > express > debug:
+        patched: '2017-09-28T05:21:12.243Z'
+    - gpii-pouchdb > gpii-express > express > send > debug:
+        patched: '2017-09-28T05:21:12.243Z'
+    - gpii-pouchdb > express > send > debug:
+        patched: '2017-09-28T05:21:12.243Z'
+    - gpii-launcher > kettle > express > send > debug:
+        patched: '2017-09-28T05:21:12.243Z'
+    - gpii-pouchdb > gpii-express > express > serve-static > send > debug:
+        patched: '2017-09-28T05:21:12.243Z'
+    - gpii-pouchdb > express > serve-static > send > debug:
+        patched: '2017-09-28T05:21:12.243Z'
+    - gpii-pouchdb > body-parser > debug:
+        patched: '2017-09-28T05:21:12.243Z'
+    - gpii-pouchdb > gpii-express > express-session > debug:
+        patched: '2017-09-28T05:21:12.243Z'
+    - gpii-launcher > kettle > express-session > debug:
+        patched: '2017-09-28T05:21:12.243Z'
+    - gpii-pouchdb > pouchdb > debug:
+        patched: '2017-09-28T05:21:12.243Z'
+    - gpii-pouchdb > testem > socket.io > debug:
+        patched: '2017-09-28T05:21:12.243Z'
+    - gpii-pouchdb > testem > socket.io > engine.io > debug:
+        patched: '2017-09-28T05:21:12.243Z'
+    - gpii-pouchdb > testem > socket.io > socket.io-parser > debug:
+        patched: '2017-09-28T05:21:12.243Z'
+    - gpii-pouchdb > testem > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2017-09-28T05:21:12.243Z'
+    - gpii-pouchdb > testem > socket.io > socket.io-client > debug:
+        patched: '2017-09-28T05:21:12.243Z'
+    - gpii-pouchdb > testem > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2017-09-28T05:21:12.243Z'
+    - gpii-pouchdb > testem > socket.io > socket.io-adapter > debug:
+        patched: '2017-09-28T05:21:12.243Z'
+    - gpii-pouchdb > express-pouchdb > compression > debug:
+        patched: '2017-09-28T05:21:12.243Z'
+    - gpii-launcher > kettle > serve-static > send > debug:
+        patched: '2017-09-28T05:21:12.243Z'
